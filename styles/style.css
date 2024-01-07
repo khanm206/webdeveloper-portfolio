@@ -46,11 +46,15 @@ nav a{
  /* header related design */
  .header{
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
  }
  .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
  }
 
  .second-button{
@@ -67,4 +71,49 @@ nav a{
  }
  .profile-picture{
     width: 500px;
+ }
+ .banner-greetings{
+    font-size: 45px;
+    font-weight: 500;
+    color: #474747;
+    margin-bottom: 0;
+
+ }
+ .banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 0;
+ }
+ .under-text{
+    color: #757575;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 30px;
+ }
+ .banner-content{
+    max-width: 585px;
+ }
+ /* main section */
+ main{
+    
+ }
+
+ /* about section styles */
+ .about{
+    padding: 150px 200px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    max-width: 1000px;
+    margin: 130px 200px;
+    text-align: center;
+    
+ }
+ .sec-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
  }
