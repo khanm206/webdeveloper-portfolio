@@ -18,7 +18,7 @@ nav {
    font-size: 45px;
    font-weight: 800;
    /* margin-left: 10px; */
-   padding-left: 20px;
+   padding-left: 100px;
 }
 
 .mary {
@@ -58,9 +58,10 @@ nav a {
 /* header related design */
 .header {
    background: #FFF8F3;
-   background-image: url(../images/header_bg.png);
+   background-image: url("../images/header_bg.png"), url("../images/developer.png");
    background-repeat: no-repeat;
-   background-position: bottom right;
+   background-position: bottom right, top left;
+   
 }
 
 .banner {
