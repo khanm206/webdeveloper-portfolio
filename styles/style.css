@@ -165,13 +165,14 @@ main {
 
 .what-i-do {
    text-align: center;
-   margin: 200px 280px;
+   margin: 200px 280px 50px;
 }
 
 .skills-part {
    display: flex;
    gap: 30px;
-   margin-top: 80px;
+   margin-top: 20px;
+   margin-bottom: 200px;
    padding-left: 100px;
    padding-right: 100px;
    /* justify-content: space-around; */
@@ -203,9 +204,9 @@ main section {
 
 .resume-container {
    display: flex;
-   gap: 50px;
+   gap: 100px;
    justify-content: space-around;
-   /* text-align: center; */
+   text-align: center;
    padding-left: 230px;
    padding-right: 230px;
 }
