@@ -244,10 +244,13 @@ footer{
 }
 .contact-field{
    display: block;
-   margin-bottom: 15px;;
+   margin-bottom: 15px;
    padding: 18px 35px;
    width: 100%;
    border-radius: 5px;
    border: 0;
    flex-shrink: 0;
+}
+.social-links a{
+   margin-right: 24px;
 }
